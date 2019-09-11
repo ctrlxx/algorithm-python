@@ -1,4 +1,5 @@
-class Solution:
+# # coding=utf-8
+class Sort:
     def __init__(self):
         self.list_sorted = []
 
@@ -19,3 +20,8 @@ class Solution:
                 return False
         return True
 
+
+if __name__ == '__main__':
+    unsorted_list = [1, 2, 3, 1, 11]
+    Sort.selection(unsorted_list)
+    print('sorted list:', unsorted_list, ' Sorted:', Sort.isSorted(unsorted_list))
