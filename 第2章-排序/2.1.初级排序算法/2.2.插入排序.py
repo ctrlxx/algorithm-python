@@ -30,3 +30,4 @@ if __name__ == '__main__':
     s = Sort()
     sorted_list = s.insertion(unsorted_list)
     print('sorted list:', sorted_list, ' Sorted:', Sort.isSorted(unsorted_list))
+from collections import deque
